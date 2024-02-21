@@ -28,7 +28,7 @@
 							$host="localhost";
 							$user="root";
 							$pas="";
-							$dbname="ceef_pap2013";
+							$dbname="Cafenea";
 							$conn= new mysqli($host,$user,$pas,$dbname);
 							$sql="SELECT idGrupa,DenGrupa FROM grupe";
 							$result=$conn->query($sql);
